@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Server.Kestrel.Core;
 using Microsoft.Extensions.Hosting;
 
-namespace Aer.Playground.Service.LatencyIssue
+namespace Playground.Service.LatencyIssue
 {
     public class Program
     {

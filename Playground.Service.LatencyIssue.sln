@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{378E2D46-9050-4674-A86C-D320A72D8332}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aer.Playground.Service.LatencyIssue", "src\Aer.Playground.Service.LatencyIssue\Aer.Playground.Service.LatencyIssue.csproj", "{BD90E020-D5BE-453E-B7B7-3D6F550A6712}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground.Service.LatencyIssue", "src\Playground.Service.LatencyIssue\Playground.Service.LatencyIssue.csproj", "{BD90E020-D5BE-453E-B7B7-3D6F550A6712}"
 EndProject
 
 

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Aer.Playground.Service.LatencyIssue.BLL.Interfaces;
+using Playground.Service.LatencyIssue.BLL.Interfaces;
 
-namespace Aer.Playground.Service.LatencyIssue.BLL.Services;
+namespace Playground.Service.LatencyIssue.BLL.Services;
 
 public class FakeWorkService: IFakeWorkService
 {

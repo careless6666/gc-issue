@@ -1,8 +1,8 @@
 using System.Threading;
 using System.Threading.Tasks;
-using Aer.Playground.Service.LatencyIssue.BLL.Services;
+using Playground.Service.LatencyIssue.BLL.Services;
 
-namespace Aer.Playground.Service.LatencyIssue.BLL.Interfaces;
+namespace Playground.Service.LatencyIssue.BLL.Interfaces;
 
 public interface IFakeWorkService
 {

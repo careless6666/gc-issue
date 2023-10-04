@@ -1,10 +1,10 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Aer.Playground.Service.LatencyIssue.BLL.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Playground.Service.LatencyIssue.BLL.Interfaces;
 
-namespace Aer.Playground.Service.LatencyIssue.Controllers.V1;
+namespace Playground.Service.LatencyIssue.Controllers.V1;
 
 [Route("fake-work")]
 public class FakeLoadController: Controller

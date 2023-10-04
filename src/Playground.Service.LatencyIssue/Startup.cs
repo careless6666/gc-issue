@@ -1,11 +1,11 @@
-using Aer.Playground.Service.LatencyIssue.BLL.Interfaces;
-using Aer.Playground.Service.LatencyIssue.BLL.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Playground.Service.LatencyIssue.BLL.Interfaces;
+using Playground.Service.LatencyIssue.BLL.Services;
 
-namespace Aer.Playground.Service.LatencyIssue
+namespace Playground.Service.LatencyIssue
 {
     public class Startup
     {

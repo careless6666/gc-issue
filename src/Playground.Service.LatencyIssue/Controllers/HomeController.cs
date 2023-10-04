@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Aer.Playground.Service.LatencyIssue.Controllers
+namespace Playground.Service.LatencyIssue.Controllers
 {
     [Route("/")]
     public class HomeController : Controller
