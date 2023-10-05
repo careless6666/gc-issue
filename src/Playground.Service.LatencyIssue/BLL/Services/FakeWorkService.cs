@@ -55,7 +55,16 @@ public class FakeWorkService: IFakeWorkService
         var user = _users.GetValueOrDefault(id);
         if (id % 2 == 0)
         {
-            user.Info.Status = longStr1 + longStr2 + longStr3;
+            var newUser = new User(){
+                 Id = user.Id,
+                 Name = user.Name,
+                   Info = new AdditionalInfo {
+                     Id = user.Info.Id,
+                        Status = longStr1 + longStr2 + longStr3
+                   }
+            };
+
+            user = newUser;
         }
         await Task.Delay(10 + Random.Shared.Next(100), token);
         return user;
