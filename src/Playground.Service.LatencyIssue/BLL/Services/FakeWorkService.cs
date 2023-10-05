@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Primitives;
 using Playground.Service.LatencyIssue.BLL.Interfaces;
 
 namespace Playground.Service.LatencyIssue.BLL.Services;
@@ -38,6 +39,8 @@ public class FakeWorkService: IFakeWorkService
     private string GetLohString()
     {
         var sb = new StringBuilder();
+
+        sb.Append("Fake long");
 
         for (var i = 0; i < 1000; i++)
         {

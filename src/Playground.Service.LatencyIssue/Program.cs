@@ -18,10 +18,10 @@ namespace Playground.Service.LatencyIssue
                     webBuilder.UseStartup<Startup>();
                     webBuilder.ConfigureKestrel(kestrel =>
                     {
-                        kestrel.ListenAnyIP(82, options => options.Protocols = HttpProtocols.Http2); //grpc port
+                        kestrel.ListenAnyIP(8082, options => options.Protocols = HttpProtocols.Http2); //grpc port
                         kestrel.ListenAnyIP(5000, options => options.Protocols = HttpProtocols.Http1AndHttp2); //local http
-                        kestrel.ListenAnyIP(80, options => options.Protocols = HttpProtocols.Http1AndHttp2); //kubernates http
-                        kestrel.ListenAnyIP(84, options => options.Protocols = HttpProtocols.Http1AndHttp2); //kubernates metrics
+                        kestrel.ListenAnyIP(8080, options => options.Protocols = HttpProtocols.Http1AndHttp2); //kubernates http
+                        kestrel.ListenAnyIP(8084, options => options.Protocols = HttpProtocols.Http1AndHttp2); //kubernates metrics
                     });
                 });
     }
